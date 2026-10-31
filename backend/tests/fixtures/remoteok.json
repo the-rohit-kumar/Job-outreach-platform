@@ -1,0 +1,31 @@
+[
+  {
+    "legal": "Please fetch our API politely. Data provided AS IS for job seekers."
+  },
+  {
+    "id": "5001",
+    "slug": "remote-python-ai-engineer-at-acme",
+    "position": "Python AI Engineer (part-time)",
+    "company": "Acme AI",
+    "url": "/remote-python-ai-engineer-at-acme",
+    "tags": ["python", "ai", "part-time"],
+    "location": "Worldwide",
+    "salary_min": 40000,
+    "salary_max": 70000,
+    "date": "2026-01-05T08:00:00",
+    "description": "<p>We are building an LLM evaluation platform and need a part-time Python engineer to help with RAG pipelines and LangGraph agents.</p>",
+    "employment_type": "part-time"
+  },
+  {
+    "id": "5002",
+    "slug": "java-developer",
+    "position": "Java Developer",
+    "company": "Enterprise Co",
+    "url": "/java-developer",
+    "tags": ["java"],
+    "location": "US only",
+    "date": "2026-01-05T09:00:00",
+    "description": "<p>Classic enterprise Java role.</p>",
+    "employment_type": "full-time"
+  }
+]

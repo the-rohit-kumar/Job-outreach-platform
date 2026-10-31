@@ -1,0 +1,38 @@
+{
+  "total_count": 3,
+  "items": [
+    {
+      "full_name": "nova-labs/nova-eval",
+      "html_url": "https://github.com/nova-labs/nova-eval",
+      "description": "Tiny LLM evaluation harness built with LangGraph and RAGAS-style rubrics",
+      "stargazers_count": 42,
+      "archived": false,
+      "disabled": false,
+      "created_at": "2026-10-02T00:00:00Z",
+      "topics": ["llm", "evaluation", "langgraph"],
+      "owner": {"login": "nova-labs", "html_url": "https://github.com/nova-labs"}
+    },
+    {
+      "full_name": "megacorp/huge-framework",
+      "html_url": "https://github.com/megacorp/huge-framework",
+      "description": "A giant framework with 50k stars",
+      "stargazers_count": 52000,
+      "archived": false,
+      "disabled": false,
+      "created_at": "2026-10-03T00:00:00Z",
+      "topics": ["ai"],
+      "owner": {"login": "megacorp", "html_url": "https://github.com/megacorp"}
+    },
+    {
+      "full_name": "old-org/legacy-ml",
+      "html_url": "https://github.com/old-org/legacy-ml",
+      "description": "Old machine learning toolbox",
+      "stargazers_count": 100,
+      "archived": false,
+      "disabled": false,
+      "created_at": "2019-05-01T00:00:00Z",
+      "topics": ["machine-learning"],
+      "owner": {"login": "old-org", "html_url": "https://github.com/old-org"}
+    }
+  ]
+}

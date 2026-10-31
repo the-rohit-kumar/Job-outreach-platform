@@ -1,0 +1,24 @@
+{
+  "hits": [
+    {
+      "objectID": "9001234",
+      "author": "alice_builds",
+      "created_at": "2026-01-02T09:15:00.000Z",
+      "comment_text": "Pixie Labs | Part-time LLM engineer (RAG + evals) | Remote / anywhere | We are a small team building an AI support agent for e-commerce. Need help wiring LangChain + a RAGAS-style evaluation loop. A few hours a week to start, contract, USD. Email: hello@pixielabs.example.com"
+    },
+    {
+      "objectID": "9001235",
+      "author": "bob_marketer",
+      "created_at": "2026-01-02T10:00:00.000Z",
+      "comment_text": "GrowthGecko | Senior SEO manager | London | Ten years of experience required, onsite only, no agencies."
+    },
+    {
+      "objectID": "9001236",
+      "author": "carol_data",
+      "created_at": "2026-01-02T11:30:00.000Z",
+      "comment_text": "Nimbus Health | Freelance Python developer for data pipelines | Remote | Contract work building ETL with Python and SQL, three months, part-time friendly."
+    }
+  ],
+  "nbPages": 1,
+  "page": 0
+}

@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# OutreachHub source configuration (step 2 of the build adds the collectors,
+# step 8 adds the rest). Values here override the collector's code defaults;
+# the per-source settings on the Sources page override this file.
+#
+# Every collector honors robots.txt, uses official APIs/feeds where possible,
+# sets a descriptive User-Agent, rate limits, caches, and fails gracefully.
+# ---------------------------------------------------------------------------
+collectors:
+  hn:
+    threads:
+      - query: "who is hiring"
+        mode: comments
+      - query: "freelancer seeking freelancer"
+        mode: comments
+      - query: "show hn"
+        mode: stories
+      - query: "launch hn"
+        mode: stories
+    keywords:
+      - llm
+      - langchain
+      - langgraph
+      - rag
+      - agent
+      - genai
+      - ai engineer
+      - python
+      - part-time
+      - contract
+      - freelance
+      - remote
+      - junior
+      - entry-level
+      - 0-2 years
+      - early career
+    max_comments_per_thread: 150
+    min_interval_seconds: 600
+
+  remoteok:
+    keywords: [python, backend, machine learning, ai, llm, engineer, ml, junior]
+    min_interval_seconds: 600
+
+  wwr:
+    feeds:
+      - https://weworkremotely.com/categories/remote-programming-jobs.rss
+      - https://weworkremotely.com/categories/remote-full-stack-programming-jobs.rss
+    keywords: [python, engineer, developer, ai, machine learning, backend, junior]
+    min_interval_seconds: 600
+
+  remotive:
+    category: software-dev
+    keywords: [python, ai, machine learning, engineer, backend, llm, junior]
+    min_interval_seconds: 600
+
+  github:
+    queries:
+      - langchain rag
+      - langgraph agent
+      - llm evaluation
+      - mcp server ai
+      - vector database rag
+      - llamaindex agent
+    created_within_days: 120
+    max_stars: 500
+    min_interval_seconds: 900

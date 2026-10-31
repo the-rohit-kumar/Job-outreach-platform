@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "url": "https://remotive.com/remote-jobs/101",
+      "title": "Machine Learning Engineer (contract)",
+      "company_name": "Riverstone AI",
+      "candidate_required_location": "Worldwide",
+      "job_type": "Contract",
+      "publication_date": "2026-01-04T12:00:00.000Z",
+      "employment_type": "contract",
+      "tags": ["engineering", "ai"],
+      "description": "<p>Contract role helping us ship a RAG search feature with Python and vector databases. Part-time friendly.</p>"
+    },
+    {
+      "id": 102,
+      "url": "https://remotive.com/remote-jobs/102",
+      "title": "Customer Support Specialist",
+      "company_name": "Helply",
+      "candidate_required_location": "Argentina",
+      "job_type": "Full-time",
+      "publication_date": "2026-01-04T13:00:00.000Z",
+      "employment_type": "full-time",
+      "tags": ["customer support"],
+      "description": "<p>Support role.</p>"
+    }
+  ],
+  "job_count": 2
+}
